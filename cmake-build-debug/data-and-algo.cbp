@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="CPPractice"/>
+		<Option title="data-and-algo"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CPPractice">
-				<Option output="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CPPractice" prefix_auto="0" extension_auto="0"/>
+			<Target title="data-and-algo">
+				<Option output="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/data-and-algo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPractice"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 data-and-algo"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CPPractice/fast">
-				<Option output="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CPPractice" prefix_auto="0" extension_auto="0"/>
+			<Target title="data-and-algo/fast">
+				<Option output="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/data-and-algo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,7 +75,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPractice/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 data-and-algo/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,16 +83,16 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp">
-			<Option target="CPPractice"/>
+			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.h">
-			<Option target="CPPractice"/>
+			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp">
-			<Option target="CPPractice"/>
+			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/recursion.h">
-			<Option target="CPPractice"/>
+			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

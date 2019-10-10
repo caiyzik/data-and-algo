@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice
+CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CPPractice
+# Target rules for targets named data-and-algo
 
 # Build rule for target.
-CPPractice: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CPPractice
-.PHONY : CPPractice
+data-and-algo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 data-and-algo
+.PHONY : data-and-algo
 
 # fast build rule for target.
-CPPractice/fast:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/build
-.PHONY : CPPractice/fast
+data-and-algo/fast:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
+.PHONY : data-and-algo/fast
 
 dlinkedlist.o: dlinkedlist.cpp.o
 
@@ -129,7 +129,7 @@ dlinkedlist.o: dlinkedlist.cpp.o
 
 # target to build an object file
 dlinkedlist.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o
 .PHONY : dlinkedlist.cpp.o
 
 dlinkedlist.i: dlinkedlist.cpp.i
@@ -138,7 +138,7 @@ dlinkedlist.i: dlinkedlist.cpp.i
 
 # target to preprocess a source file
 dlinkedlist.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/dlinkedlist.cpp.i
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.i
 .PHONY : dlinkedlist.cpp.i
 
 dlinkedlist.s: dlinkedlist.cpp.s
@@ -147,7 +147,7 @@ dlinkedlist.s: dlinkedlist.cpp.s
 
 # target to generate assembly for a file
 dlinkedlist.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/dlinkedlist.cpp.s
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.s
 .PHONY : dlinkedlist.cpp.s
 
 main.o: main.cpp.o
@@ -156,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CPPractice"
+	@echo "... data-and-algo"
 	@echo "... dlinkedlist.o"
 	@echo "... dlinkedlist.i"
 	@echo "... dlinkedlist.s"

@@ -59,45 +59,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice
+CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/CPPractice.dir
+# Target rules for target CMakeFiles/data-and-algo.dir
 
 # All Build rule for target.
-CMakeFiles/CPPractice.dir/all:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/depend
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target CPPractice"
-.PHONY : CMakeFiles/CPPractice.dir/all
+CMakeFiles/data-and-algo.dir/all:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/depend
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target data-and-algo"
+.PHONY : CMakeFiles/data-and-algo.dir/all
 
 # Include target in all.
-all: CMakeFiles/CPPractice.dir/all
+all: CMakeFiles/data-and-algo.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CPPractice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CPPractice.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CPPractice.dir/rule
+CMakeFiles/data-and-algo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/data-and-algo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/data-and-algo.dir/rule
 
 # Convenience name for target.
-CPPractice: CMakeFiles/CPPractice.dir/rule
+data-and-algo: CMakeFiles/data-and-algo.dir/rule
 
-.PHONY : CPPractice
-
-# clean rule for target.
-CMakeFiles/CPPractice.dir/clean:
-	$(MAKE) -f CMakeFiles/CPPractice.dir/build.make CMakeFiles/CPPractice.dir/clean
-.PHONY : CMakeFiles/CPPractice.dir/clean
+.PHONY : data-and-algo
 
 # clean rule for target.
-clean: CMakeFiles/CPPractice.dir/clean
+CMakeFiles/data-and-algo.dir/clean:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/clean
+.PHONY : CMakeFiles/data-and-algo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/data-and-algo.dir/clean
 
 .PHONY : clean
 

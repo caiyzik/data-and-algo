@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o"
-  "/Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/CPPractice.dir/main.cpp.o"
+  "/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o"
+  "/Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/data-and-algo.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

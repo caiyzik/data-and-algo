@@ -1,2 +1,2 @@
-# Empty dependencies file for CPPractice.
+# Empty dependencies file for data-and-algo.
 # This may be replaced when dependencies are built.

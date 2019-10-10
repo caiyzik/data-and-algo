@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice
+CMAKE_SOURCE_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CPPractice.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/CPPractice.dir/flags.make
 
 CMakeFiles/CPPractice.dir/main.cpp.o: CMakeFiles/CPPractice.dir/flags.make
 CMakeFiles/CPPractice.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPractice.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPractice.dir/main.cpp.o -c /Users/tiffanys_mac/Documents/Projects/CPPractice/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPractice.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPractice.dir/main.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp
 
 CMakeFiles/CPPractice.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPractice.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/CPPractice/main.cpp > CMakeFiles/CPPractice.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp > CMakeFiles/CPPractice.dir/main.cpp.i
 
 CMakeFiles/CPPractice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPractice.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/CPPractice/main.cpp -o CMakeFiles/CPPractice.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp -o CMakeFiles/CPPractice.dir/main.cpp.s
 
 CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o: CMakeFiles/CPPractice.dir/flags.make
 CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o: ../dlinkedlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o -c /Users/tiffanys_mac/Documents/Projects/CPPractice/dlinkedlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp
 
 CMakeFiles/CPPractice.dir/dlinkedlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPractice.dir/dlinkedlist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/CPPractice/dlinkedlist.cpp > CMakeFiles/CPPractice.dir/dlinkedlist.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp > CMakeFiles/CPPractice.dir/dlinkedlist.cpp.i
 
 CMakeFiles/CPPractice.dir/dlinkedlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPractice.dir/dlinkedlist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/CPPractice/dlinkedlist.cpp -o CMakeFiles/CPPractice.dir/dlinkedlist.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp -o CMakeFiles/CPPractice.dir/dlinkedlist.cpp.s
 
 # Object files for target CPPractice
 CPPractice_OBJECTS = \
@@ -95,7 +95,7 @@ CPPractice: CMakeFiles/CPPractice.dir/main.cpp.o
 CPPractice: CMakeFiles/CPPractice.dir/dlinkedlist.cpp.o
 CPPractice: CMakeFiles/CPPractice.dir/build.make
 CPPractice: CMakeFiles/CPPractice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPPractice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPPractice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPPractice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/CPPractice.dir/clean:
 .PHONY : CMakeFiles/CPPractice.dir/clean
 
 CMakeFiles/CPPractice.dir/depend:
-	cd /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tiffanys_mac/Documents/Projects/CPPractice /Users/tiffanys_mac/Documents/Projects/CPPractice /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug /Users/tiffanys_mac/Documents/Projects/CPPractice/cmake-build-debug/CMakeFiles/CPPractice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tiffanys_mac/Documents/Projects/data-and-algo /Users/tiffanys_mac/Documents/Projects/data-and-algo /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/CPPractice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CPPractice.dir/depend
 
