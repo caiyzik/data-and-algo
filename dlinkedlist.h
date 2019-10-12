@@ -10,7 +10,8 @@
 //template <typename T>
 class Node{
 private:
-    Node(int data){this->data = data;}
+    Node(){next = nullptr; prev = nullptr;}
+    Node(int data) : Node() {this->data = data;}
     Node* next;
     Node* prev;
     int data;

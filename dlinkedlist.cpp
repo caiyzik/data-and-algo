@@ -6,8 +6,8 @@
 
 DoubleLinkedList::DoubleLinkedList(){
     //init the list. Set the head pointer
-    _head = nullptr;
-    _tail = nullptr;
+    _head = new Node();
+    _tail = new Node();
 }
 
 DoubleLinkedList::~DoubleLinkedList() { //need to delete all the nodes
@@ -22,15 +22,21 @@ void DoubleLinkedList::add(Node* n, const int& data){ //insert new node in front
     } else {
         n->prev = new_node;
         new_node->prev = n->prev;
+        if(n == _head){
+            _head = new_node;
+        }
+        if(n == _tail){
+
+        }
     }
 
 }
 void DoubleLinkedList::remove(Node* n){
 
-    if(_head == n){
+    if(_head && _head == n){
         _head = n->next;
         n->next->prev = nullptr;
-    } else if (_tail == n){
+    } else if (_tail && _tail == n){
         _tail = n->prev;
         n->prev->next = nullptr;
     } else {
@@ -52,7 +58,7 @@ const int& DoubleLinkedList::front() const{
     if(_head){
         return _head->data;
     } else {
-        return NULL;
+        return NULL; //TODO: Throw an error instead
     }
 }
 const int& DoubleLinkedList::back() const{
@@ -67,7 +73,9 @@ void DoubleLinkedList::addFront(const int& data){
 }
 void DoubleLinkedList::addBack (const int& data){
     Node* new_node = new Node(data);
-    _tail->next = new_node;
+    if(_tail) {
+        _tail->next = new_node;
+    }
     new_node->prev = _tail;
     _tail = new_node;
 }

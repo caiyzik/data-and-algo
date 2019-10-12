@@ -59,14 +59,14 @@ TEST(DoubleLinkedList, AddFront_NotEmpty){
     delete dll;
 }
 
-TEST(DoubleLinkedList, DISABLE_AddBack_Empty){
+TEST(DoubleLinkedList, AddBack_Empty){
     DoubleLinkedList* dll = new DoubleLinkedList;
     dll->addBack(1);
     EXPECT_EQ(dll->back(), 1);
     delete dll;
 }
 
-TEST(DoubleLinkedList, DISABLE_AddBack_NotEmpty){
+TEST(DoubleLinkedList, AddBack_NotEmpty){
     DoubleLinkedList* dll = new DoubleLinkedList;
     dll->addBack(1);
     dll->addBack(2);
