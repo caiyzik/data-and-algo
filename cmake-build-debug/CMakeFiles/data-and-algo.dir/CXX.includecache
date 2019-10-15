@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp
+iostream
+-
+dlinkedlist.h
+/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.h
+
 /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.h
 iostream
 -
