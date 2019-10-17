@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data-and-algo.dir/main.cpp.o"
-  "CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o"
+  "CMakeFiles/data-and-algo.dir/queue_tests.cpp.o"
+  "CMakeFiles/data-and-algo.dir/queue.cpp.o"
   "data-and-algo.pdb"
   "data-and-algo"
 )

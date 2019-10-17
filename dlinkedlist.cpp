@@ -5,24 +5,26 @@
 #include "dlinkedlist.h"
 
 namespace tiff {
-    
-    DoubleLinkedList::DoubleLinkedList() {
+
+    template<typename T>
+    DoubleLinkedList<T>::DoubleLinkedList() {
         //init the list. Set the head pointer
-        _head = new Node();
-        _tail = new Node();
+        _head = new Node<T>();
+        _tail = new Node<T>();
     }
 
-    DoubleLinkedList::~DoubleLinkedList() { //need to delete all the nodes
-        Node *current = _head;
-        Node *temp;
+    template<typename T>
+    DoubleLinkedList<T>::~DoubleLinkedList() { //need to delete all the nodes
+        Node<T> *current = _head;
+        Node<T> *temp;
         while (current) {
             temp = current;
             current = current->next;
             delete temp;
         }
     }
-
-    void DoubleLinkedList::add(Node *n, const int &data) { //insert new node in front of n
+    template<typename T>
+    void DoubleLinkedList<T>::add(Node *n, const int &data) { //insert new node in front of n
         Node *new_node = new Node(data);
         if (this->empty()) {
             _head->next = new_node;
@@ -42,7 +44,7 @@ namespace tiff {
             n = new_node;
         }
     }
-
+    template<typename T>
     void DoubleLinkedList::remove(Node *n) {
         if(n->prev && n->next) {
             n->prev->next = n->next;
@@ -52,14 +54,14 @@ namespace tiff {
             throw EmptyListException();
         }
     }
-
+    template<typename T>
     bool DoubleLinkedList::empty() const {
         if (_head->next && _head-> next != _tail) {
             return false;
         }
         return true;
     }
-
+    template<typename T>
     const int& DoubleLinkedList::front() const {
         if(_head->next && _head->next != _tail){
             return _head->next->data;

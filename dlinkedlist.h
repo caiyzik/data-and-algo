@@ -18,7 +18,9 @@ namespace tiff {
         }
     };
 
+    template<typename T> class DoubleLinkedList;
 
+    template<typename T>
     class Node {
     private:
         Node() {
@@ -32,10 +34,11 @@ namespace tiff {
         Node *prev;
         int data;
 
-        friend class DoubleLinkedList;
+        friend class DoubleLinkedList<T>;
     };
 
 
+    template<typename T>
     class DoubleLinkedList {
 
     public:
@@ -45,9 +48,9 @@ namespace tiff {
 
         bool empty() const;
 
-        const int &front() const;
+        //const T &front() const;
 
-        const int &back() const;
+        const T &back() const;
 
         void addFront(const int &);
 
@@ -58,11 +61,11 @@ namespace tiff {
         void removeBack();
 
     private:
-        Node *_head;
-        Node *_tail;
+        Node<T> *_head;
+        Node<T> *_tail;
     protected:
-        void add(Node *, const int &);
+        void add(Node<T> *, const int &);
 
-        void remove(Node *);
+        void remove(Node<T> *);
     };
 }

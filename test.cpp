@@ -1,12 +1,8 @@
 //
-// Created by Tiffany Montgomery on 2019-10-11.
+// Created by Tiffany Montgomery on 2019-10-17.
 //
 
-#include <iostream>
-#include <vector>
-
-int main() {
-    std::vector<int> v;
-    //std::cout << v.front();
-
+int main(){
+    return 3;
 }
+

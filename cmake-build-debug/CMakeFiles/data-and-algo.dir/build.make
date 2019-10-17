@@ -57,42 +57,42 @@ include CMakeFiles/data-and-algo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data-and-algo.dir/flags.make
 
-CMakeFiles/data-and-algo.dir/main.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
-CMakeFiles/data-and-algo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data-and-algo.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/main.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp
+CMakeFiles/data-and-algo.dir/queue_tests.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
+CMakeFiles/data-and-algo.dir/queue_tests.cpp.o: ../queue_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data-and-algo.dir/queue_tests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/queue_tests.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp
 
-CMakeFiles/data-and-algo.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp > CMakeFiles/data-and-algo.dir/main.cpp.i
+CMakeFiles/data-and-algo.dir/queue_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/queue_tests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp > CMakeFiles/data-and-algo.dir/queue_tests.cpp.i
 
-CMakeFiles/data-and-algo.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp -o CMakeFiles/data-and-algo.dir/main.cpp.s
+CMakeFiles/data-and-algo.dir/queue_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/queue_tests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp -o CMakeFiles/data-and-algo.dir/queue_tests.cpp.s
 
-CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
-CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o: ../dlinkedlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp
+CMakeFiles/data-and-algo.dir/queue.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
+CMakeFiles/data-and-algo.dir/queue.cpp.o: ../queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data-and-algo.dir/queue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/queue.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp
 
-CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp > CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.i
+CMakeFiles/data-and-algo.dir/queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/queue.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp > CMakeFiles/data-and-algo.dir/queue.cpp.i
 
-CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp -o CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.s
+CMakeFiles/data-and-algo.dir/queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/queue.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp -o CMakeFiles/data-and-algo.dir/queue.cpp.s
 
 # Object files for target data-and-algo
 data__and__algo_OBJECTS = \
-"CMakeFiles/data-and-algo.dir/main.cpp.o" \
-"CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o"
+"CMakeFiles/data-and-algo.dir/queue_tests.cpp.o" \
+"CMakeFiles/data-and-algo.dir/queue.cpp.o"
 
 # External object files for target data-and-algo
 data__and__algo_EXTERNAL_OBJECTS =
 
-data-and-algo: CMakeFiles/data-and-algo.dir/main.cpp.o
-data-and-algo: CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o
+data-and-algo: CMakeFiles/data-and-algo.dir/queue_tests.cpp.o
+data-and-algo: CMakeFiles/data-and-algo.dir/queue.cpp.o
 data-and-algo: CMakeFiles/data-and-algo.dir/build.make
 data-and-algo: CMakeFiles/data-and-algo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable data-and-algo"

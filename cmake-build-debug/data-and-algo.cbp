@@ -82,16 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.cpp">
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp">
 			<Option target="data-and-algo"/>
 		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/dlinkedlist.h">
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.h">
 			<Option target="data-and-algo"/>
 		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/main.cpp">
-			<Option target="data-and-algo"/>
-		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/recursion.h">
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp">
 			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/CMakeLists.txt">

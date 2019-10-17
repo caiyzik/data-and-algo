@@ -1,6 +1,7 @@
 #include <iostream>
 #include "dlinkedlist.h"
 #include "gtest/gtest.h"
+#include "queue_tests.cpp"
 
 using namespace tiff;
 

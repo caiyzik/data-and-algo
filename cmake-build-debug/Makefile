@@ -123,59 +123,59 @@ data-and-algo/fast:
 	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
 .PHONY : data-and-algo/fast
 
-dlinkedlist.o: dlinkedlist.cpp.o
+queue.o: queue.cpp.o
 
-.PHONY : dlinkedlist.o
-
-# target to build an object file
-dlinkedlist.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.o
-.PHONY : dlinkedlist.cpp.o
-
-dlinkedlist.i: dlinkedlist.cpp.i
-
-.PHONY : dlinkedlist.i
-
-# target to preprocess a source file
-dlinkedlist.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.i
-.PHONY : dlinkedlist.cpp.i
-
-dlinkedlist.s: dlinkedlist.cpp.s
-
-.PHONY : dlinkedlist.s
-
-# target to generate assembly for a file
-dlinkedlist.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/dlinkedlist.cpp.s
-.PHONY : dlinkedlist.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : queue.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.o
-.PHONY : main.cpp.o
+queue.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.o
+.PHONY : queue.cpp.o
 
-main.i: main.cpp.i
+queue.i: queue.cpp.i
 
-.PHONY : main.i
+.PHONY : queue.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.i
-.PHONY : main.cpp.i
+queue.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.i
+.PHONY : queue.cpp.i
 
-main.s: main.cpp.s
+queue.s: queue.cpp.s
 
-.PHONY : main.s
+.PHONY : queue.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/main.cpp.s
-.PHONY : main.cpp.s
+queue.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.s
+.PHONY : queue.cpp.s
+
+queue_tests.o: queue_tests.cpp.o
+
+.PHONY : queue_tests.o
+
+# target to build an object file
+queue_tests.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.o
+.PHONY : queue_tests.cpp.o
+
+queue_tests.i: queue_tests.cpp.i
+
+.PHONY : queue_tests.i
+
+# target to preprocess a source file
+queue_tests.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.i
+.PHONY : queue_tests.cpp.i
+
+queue_tests.s: queue_tests.cpp.s
+
+.PHONY : queue_tests.s
+
+# target to generate assembly for a file
+queue_tests.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.s
+.PHONY : queue_tests.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... data-and-algo"
-	@echo "... dlinkedlist.o"
-	@echo "... dlinkedlist.i"
-	@echo "... dlinkedlist.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
+	@echo "... queue_tests.o"
+	@echo "... queue_tests.i"
+	@echo "... queue_tests.s"
 .PHONY : help
 
 
