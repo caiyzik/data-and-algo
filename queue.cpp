@@ -6,7 +6,7 @@
 
 namespace tiff {
 
-    template <typename E>
+    //template <typename E>
     Queue<E>::Queue(int size) {
         elements = 0;
         capacity = size;
@@ -15,17 +15,17 @@ namespace tiff {
         q = new E[size];
     }
 
-    template class Queue<int>::Queue<int>;
+    //template class Queue<int>::Queue<int>;
 
 
-    template <typename E>
+    //template <typename E>
     Queue<E>::~Queue() {
         delete q;
     }
-    
-    template class Queue<int>::~Queue<int>;
 
-    template <typename E>
+    //template class Queue<int>::~Queue<int>;
+
+    //template <typename E>
     int Queue<E>::size() const {
         return elements;
     }

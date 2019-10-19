@@ -15,7 +15,7 @@ namespace tiff {
         }
     };
 
-    template<class E>
+    template <class E>
     class Queue {
     private:
         int elements;
@@ -27,7 +27,6 @@ namespace tiff {
 
     public:
 
-        //template <typename U>
         explicit Queue (int);
 
         ~Queue();
