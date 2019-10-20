@@ -36,7 +36,6 @@ TEST(Queue, GetFront_NotEmpty){
 
 TEST(Queue, Dequeue_Empty){
     Queue<int> q = Queue<int>(5);
-    q.dequeue();
     EXPECT_THROW(q.dequeue(), QueueEmpty);
 }
 
@@ -56,9 +55,3 @@ TEST(Queue, Resize){
 }
 
 
-
-/*
-int main(){
-    tiff::Queue<int> q = tiff::Queue<int>(5);
-    return 0;
-}*/

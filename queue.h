@@ -38,7 +38,7 @@ namespace tiff {
 
         void enqueue(const E &e);
 
-        void dequeue() throw(QueueEmpty);
+        void dequeue();
 
     };
 

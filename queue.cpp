@@ -6,7 +6,7 @@
 
 namespace tiff {
 
-    //template <typename E>
+    template <typename E>
     Queue<E>::Queue(int size) {
         elements = 0;
         capacity = size;
@@ -15,17 +15,17 @@ namespace tiff {
         q = new E[size];
     }
 
-    //template class Queue<int>::Queue<int>;
 
 
-    //template <typename E>
+
+    template <typename E>
     Queue<E>::~Queue() {
         delete q;
     }
 
     //template class Queue<int>::~Queue<int>;
 
-    //template <typename E>
+    template <typename E>
     int Queue<E>::size() const {
         return elements;
     }
@@ -45,12 +45,12 @@ namespace tiff {
     }
 
     template <typename E>
-    void Queue<E>::dequeue()throw(QueueEmpty){
+    void Queue<E>::dequeue(){
         if(empty()){
             throw QueueEmpty();
         }
         front = (front + 1) % capacity;
-        ++elements;
+        --elements;
     }
 
     template <typename E>
@@ -60,7 +60,7 @@ namespace tiff {
         }
         q[rear] = e;
         rear = (rear + 1) % capacity;
-        --elements;
+        ++elements;
     }
 
     template <typename E>
@@ -74,5 +74,7 @@ namespace tiff {
         q = new_q;
         delete temp;
     }
+
+    template class Queue<int>;
 
 }
