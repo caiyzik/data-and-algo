@@ -7,15 +7,6 @@
 #include "gtest/gtest.h"
 
 using namespace tiff;
-/*
- *  bool empty() const;
-
-        const E& get_front() const throw(QueueEmpty);
-
-        void enqueue(const E &e);
-
-        void dequeue() throw(QueueEmpty);
- */
 
 TEST(Queue, Enqueue){
     Queue<int> q = Queue<int>(5);

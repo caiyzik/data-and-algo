@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/data-and-algo.dir/queue.cpp.o"
   "/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/data-and-algo.dir/queue_tests.cpp.o"
+  "/Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp" "/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles/data-and-algo.dir/tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

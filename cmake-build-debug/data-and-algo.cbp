@@ -91,6 +91,12 @@
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp">
 			<Option target="data-and-algo"/>
 		</Unit>
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp">
+			<Option target="data-and-algo"/>
+		</Unit>
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.h">
+			<Option target="data-and-algo"/>
+		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
