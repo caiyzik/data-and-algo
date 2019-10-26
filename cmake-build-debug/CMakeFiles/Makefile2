@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/data-and-algo.dir/all:
 	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/depend
 	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target data-and-algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target data-and-algo"
 .PHONY : CMakeFiles/data-and-algo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/data-and-algo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/data-and-algo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/data-and-algo.dir/rule

@@ -82,19 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp">
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/leet-tests.cpp">
 			<Option target="data-and-algo"/>
 		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.h">
-			<Option target="data-and-algo"/>
-		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp">
-			<Option target="data-and-algo"/>
-		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp">
-			<Option target="data-and-algo"/>
-		</Unit>
-		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.h">
+		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/twosums.cpp">
 			<Option target="data-and-algo"/>
 		</Unit>
 		<Unit filename="/Users/tiffanys_mac/Documents/Projects/data-and-algo/CMakeLists.txt">

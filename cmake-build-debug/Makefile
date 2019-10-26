@@ -123,86 +123,59 @@ data-and-algo/fast:
 	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
 .PHONY : data-and-algo/fast
 
-queue.o: queue.cpp.o
+leetcode/leet-tests.o: leetcode/leet-tests.cpp.o
 
-.PHONY : queue.o
-
-# target to build an object file
-queue.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.o
-.PHONY : queue.cpp.o
-
-queue.i: queue.cpp.i
-
-.PHONY : queue.i
-
-# target to preprocess a source file
-queue.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.i
-.PHONY : queue.cpp.i
-
-queue.s: queue.cpp.s
-
-.PHONY : queue.s
-
-# target to generate assembly for a file
-queue.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue.cpp.s
-.PHONY : queue.cpp.s
-
-queue_tests.o: queue_tests.cpp.o
-
-.PHONY : queue_tests.o
+.PHONY : leetcode/leet-tests.o
 
 # target to build an object file
-queue_tests.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.o
-.PHONY : queue_tests.cpp.o
+leetcode/leet-tests.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o
+.PHONY : leetcode/leet-tests.cpp.o
 
-queue_tests.i: queue_tests.cpp.i
+leetcode/leet-tests.i: leetcode/leet-tests.cpp.i
 
-.PHONY : queue_tests.i
+.PHONY : leetcode/leet-tests.i
 
 # target to preprocess a source file
-queue_tests.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.i
-.PHONY : queue_tests.cpp.i
+leetcode/leet-tests.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.i
+.PHONY : leetcode/leet-tests.cpp.i
 
-queue_tests.s: queue_tests.cpp.s
+leetcode/leet-tests.s: leetcode/leet-tests.cpp.s
 
-.PHONY : queue_tests.s
+.PHONY : leetcode/leet-tests.s
 
 # target to generate assembly for a file
-queue_tests.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/queue_tests.cpp.s
-.PHONY : queue_tests.cpp.s
+leetcode/leet-tests.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.s
+.PHONY : leetcode/leet-tests.cpp.s
 
-tree.o: tree.cpp.o
+leetcode/twosums.o: leetcode/twosums.cpp.o
 
-.PHONY : tree.o
+.PHONY : leetcode/twosums.o
 
 # target to build an object file
-tree.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.o
-.PHONY : tree.cpp.o
+leetcode/twosums.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o
+.PHONY : leetcode/twosums.cpp.o
 
-tree.i: tree.cpp.i
+leetcode/twosums.i: leetcode/twosums.cpp.i
 
-.PHONY : tree.i
+.PHONY : leetcode/twosums.i
 
 # target to preprocess a source file
-tree.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.i
-.PHONY : tree.cpp.i
+leetcode/twosums.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.i
+.PHONY : leetcode/twosums.cpp.i
 
-tree.s: tree.cpp.s
+leetcode/twosums.s: leetcode/twosums.cpp.s
 
-.PHONY : tree.s
+.PHONY : leetcode/twosums.s
 
 # target to generate assembly for a file
-tree.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.s
-.PHONY : tree.cpp.s
+leetcode/twosums.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.s
+.PHONY : leetcode/twosums.cpp.s
 
 # Help Target
 help:
@@ -213,15 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... data-and-algo"
-	@echo "... queue.o"
-	@echo "... queue.i"
-	@echo "... queue.s"
-	@echo "... queue_tests.o"
-	@echo "... queue_tests.i"
-	@echo "... queue_tests.s"
-	@echo "... tree.o"
-	@echo "... tree.i"
-	@echo "... tree.s"
+	@echo "... leetcode/leet-tests.o"
+	@echo "... leetcode/leet-tests.i"
+	@echo "... leetcode/leet-tests.s"
+	@echo "... leetcode/twosums.o"
+	@echo "... leetcode/twosums.i"
+	@echo "... leetcode/twosums.s"
 .PHONY : help
 
 

@@ -57,60 +57,45 @@ include CMakeFiles/data-and-algo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data-and-algo.dir/flags.make
 
-CMakeFiles/data-and-algo.dir/queue_tests.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
-CMakeFiles/data-and-algo.dir/queue_tests.cpp.o: ../queue_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data-and-algo.dir/queue_tests.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/queue_tests.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp
+CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
+CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o: ../leetcode/leet-tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/leet-tests.cpp
 
-CMakeFiles/data-and-algo.dir/queue_tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/queue_tests.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp > CMakeFiles/data-and-algo.dir/queue_tests.cpp.i
+CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/leet-tests.cpp > CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.i
 
-CMakeFiles/data-and-algo.dir/queue_tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/queue_tests.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue_tests.cpp -o CMakeFiles/data-and-algo.dir/queue_tests.cpp.s
+CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/leet-tests.cpp -o CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.s
 
-CMakeFiles/data-and-algo.dir/queue.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
-CMakeFiles/data-and-algo.dir/queue.cpp.o: ../queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data-and-algo.dir/queue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/queue.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp
+CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
+CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o: ../leetcode/twosums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/twosums.cpp
 
-CMakeFiles/data-and-algo.dir/queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/queue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp > CMakeFiles/data-and-algo.dir/queue.cpp.i
+CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/twosums.cpp > CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.i
 
-CMakeFiles/data-and-algo.dir/queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/queue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/queue.cpp -o CMakeFiles/data-and-algo.dir/queue.cpp.s
-
-CMakeFiles/data-and-algo.dir/tree.cpp.o: CMakeFiles/data-and-algo.dir/flags.make
-CMakeFiles/data-and-algo.dir/tree.cpp.o: ../tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/data-and-algo.dir/tree.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/data-and-algo.dir/tree.cpp.o -c /Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp
-
-CMakeFiles/data-and-algo.dir/tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data-and-algo.dir/tree.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp > CMakeFiles/data-and-algo.dir/tree.cpp.i
-
-CMakeFiles/data-and-algo.dir/tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/tree.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/tree.cpp -o CMakeFiles/data-and-algo.dir/tree.cpp.s
+CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tiffanys_mac/Documents/Projects/data-and-algo/leetcode/twosums.cpp -o CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.s
 
 # Object files for target data-and-algo
 data__and__algo_OBJECTS = \
-"CMakeFiles/data-and-algo.dir/queue_tests.cpp.o" \
-"CMakeFiles/data-and-algo.dir/queue.cpp.o" \
-"CMakeFiles/data-and-algo.dir/tree.cpp.o"
+"CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o" \
+"CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o"
 
 # External object files for target data-and-algo
 data__and__algo_EXTERNAL_OBJECTS =
 
-data-and-algo: CMakeFiles/data-and-algo.dir/queue_tests.cpp.o
-data-and-algo: CMakeFiles/data-and-algo.dir/queue.cpp.o
-data-and-algo: CMakeFiles/data-and-algo.dir/tree.cpp.o
+data-and-algo: CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o
+data-and-algo: CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o
 data-and-algo: CMakeFiles/data-and-algo.dir/build.make
 data-and-algo: CMakeFiles/data-and-algo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable data-and-algo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tiffanys_mac/Documents/Projects/data-and-algo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable data-and-algo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data-and-algo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
