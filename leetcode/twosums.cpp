@@ -79,3 +79,21 @@ public:
         return result;
     }
 };
+
+class ZigZagConversion {
+public:
+    string convert(string s, int numRows) {
+        multimap<char, int> result;
+        int adder = 1;
+        for(int i = 0; i < s.length; ++i){
+            if(i%numRows-1 == 0) adder = -1;
+            if(i%numRows == 0) adder = 1;
+            result.insert(pair<int, char>(i, s[1]));
+        }
+
+        string s_result = ""
+        for(int i = 0; i < numRows; i++){
+            for (int itr = result
+        }
+    }
+};
