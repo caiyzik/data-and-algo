@@ -91,7 +91,7 @@ public:
             result.insert(pair<int, char>(i, s[1]));
         }
 
-        string s_result = ""
+        string s_result = "";
         for(int i = 0; i < numRows; i++){
             for (int itr = result
         }

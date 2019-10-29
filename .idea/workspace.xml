@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bc5f81b-375e-4475-a130-3fb8a26c0bcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/twosums.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/twosums.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,6 +85,7 @@
       <workItem from="1571601964034" duration="1965000" />
       <workItem from="1572029271142" duration="1062000" />
       <workItem from="1572182847267" duration="24000" />
+      <workItem from="1572375018342" duration="56000" />
     </task>
     <servers />
   </component>
