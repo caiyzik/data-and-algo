@@ -93,7 +93,7 @@ public:
 
         string s_result = "";
         for(int i = 0; i < numRows; i++){
-            for (int itr = result
+            for (int itr = result;
         }
     }
 };
