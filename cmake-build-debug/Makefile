@@ -123,59 +123,59 @@ data-and-algo/fast:
 	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/build
 .PHONY : data-and-algo/fast
 
-leetcode/leet-tests.o: leetcode/leet-tests.cpp.o
+tree.o: tree.cpp.o
 
-.PHONY : leetcode/leet-tests.o
-
-# target to build an object file
-leetcode/leet-tests.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o
-.PHONY : leetcode/leet-tests.cpp.o
-
-leetcode/leet-tests.i: leetcode/leet-tests.cpp.i
-
-.PHONY : leetcode/leet-tests.i
-
-# target to preprocess a source file
-leetcode/leet-tests.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.i
-.PHONY : leetcode/leet-tests.cpp.i
-
-leetcode/leet-tests.s: leetcode/leet-tests.cpp.s
-
-.PHONY : leetcode/leet-tests.s
-
-# target to generate assembly for a file
-leetcode/leet-tests.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.s
-.PHONY : leetcode/leet-tests.cpp.s
-
-leetcode/twosums.o: leetcode/twosums.cpp.o
-
-.PHONY : leetcode/twosums.o
+.PHONY : tree.o
 
 # target to build an object file
-leetcode/twosums.cpp.o:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o
-.PHONY : leetcode/twosums.cpp.o
+tree.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.o
+.PHONY : tree.cpp.o
 
-leetcode/twosums.i: leetcode/twosums.cpp.i
+tree.i: tree.cpp.i
 
-.PHONY : leetcode/twosums.i
+.PHONY : tree.i
 
 # target to preprocess a source file
-leetcode/twosums.cpp.i:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.i
-.PHONY : leetcode/twosums.cpp.i
+tree.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.i
+.PHONY : tree.cpp.i
 
-leetcode/twosums.s: leetcode/twosums.cpp.s
+tree.s: tree.cpp.s
 
-.PHONY : leetcode/twosums.s
+.PHONY : tree.s
 
 # target to generate assembly for a file
-leetcode/twosums.cpp.s:
-	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.s
-.PHONY : leetcode/twosums.cpp.s
+tree.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree.cpp.s
+.PHONY : tree.cpp.s
+
+tree_tests.o: tree_tests.cpp.o
+
+.PHONY : tree_tests.o
+
+# target to build an object file
+tree_tests.cpp.o:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree_tests.cpp.o
+.PHONY : tree_tests.cpp.o
+
+tree_tests.i: tree_tests.cpp.i
+
+.PHONY : tree_tests.i
+
+# target to preprocess a source file
+tree_tests.cpp.i:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree_tests.cpp.i
+.PHONY : tree_tests.cpp.i
+
+tree_tests.s: tree_tests.cpp.s
+
+.PHONY : tree_tests.s
+
+# target to generate assembly for a file
+tree_tests.cpp.s:
+	$(MAKE) -f CMakeFiles/data-and-algo.dir/build.make CMakeFiles/data-and-algo.dir/tree_tests.cpp.s
+.PHONY : tree_tests.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... data-and-algo"
-	@echo "... leetcode/leet-tests.o"
-	@echo "... leetcode/leet-tests.i"
-	@echo "... leetcode/leet-tests.s"
-	@echo "... leetcode/twosums.o"
-	@echo "... leetcode/twosums.i"
-	@echo "... leetcode/twosums.s"
+	@echo "... tree.o"
+	@echo "... tree.i"
+	@echo "... tree.s"
+	@echo "... tree_tests.o"
+	@echo "... tree_tests.i"
+	@echo "... tree_tests.s"
 .PHONY : help
 
 

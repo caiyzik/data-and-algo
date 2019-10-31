@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data-and-algo.dir/leetcode/leet-tests.cpp.o"
-  "CMakeFiles/data-and-algo.dir/leetcode/twosums.cpp.o"
+  "CMakeFiles/data-and-algo.dir/tree.cpp.o"
+  "CMakeFiles/data-and-algo.dir/tree_tests.cpp.o"
   "data-and-algo"
   "data-and-algo.pdb"
 )
